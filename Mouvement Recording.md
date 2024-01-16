@@ -8,6 +8,7 @@ At the moment, the image resolution (64x64 pixels) has been chosen arbitrarily, 
 Finally, one of the main questions that remains to be resolved before capturing a large set of images is which positions we want to use to train this model, as only the head seems too few, but conversely all the data ("nose", "leftShoulder", "rightShoulder", "leftElbow", "rightElbow", "leftWrist", "rightWrist", "leftHip", "rightHip", "leftKnee", "rightKnee", "leftAnkle", "rightAnkle") can make each image represent a much shorter time or be much larger.
 
 With the aim of not getting stuck later, we're going to make a new 128 or 256 pixel image grouping all 13 members.
+(seems more practical than separating all members into their own texture)
 
 # Mouvement Recording 
 
