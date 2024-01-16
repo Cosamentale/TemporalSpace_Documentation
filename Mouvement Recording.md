@@ -14,9 +14,10 @@ However, to make it easier to test and generate content in advance, a version ca
 
 ci-dessous une vidéo d'exemple du système:
 
-
-
-
 https://github.com/Cosamentale/TemporalSpace_Documentation/assets/43936968/00593fda-fde7-4d97-b9a9-c7c8fc1c6246
 
+Data is recorded along the x coordinates of the image, and once a line is completed, writing shifts by one pixel on y coordinates until the entire image is recorded.
+
+Below you can see a vizualization in red of the order in which the pixels are currently read in the app.
+![readingPattern](https://github.com/Cosamentale/TemporalSpace_Documentation/assets/43936968/9a4c3631-8357-4487-86c9-67dd8cab6a9a)
 
