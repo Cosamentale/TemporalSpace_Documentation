@@ -68,4 +68,5 @@ At the moment, given that the values are recorded raw without any smoothing, it'
 
 # Current objective
 
-
+The aim of creating these textures would be to use an AI model to generate content once users have finished interacting with the system.
+We planned to use a lightweight-gan model either to enlarge the image and thus predict a possible continuation of the movement, or to generate a new image to have a virtual double.
