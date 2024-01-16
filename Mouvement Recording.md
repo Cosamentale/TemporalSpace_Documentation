@@ -1,7 +1,7 @@
 # Current objective
 
 With our first prototype, we wanted to record users' positions in png images.
-The aim of creating these textures would be to use an AI model to generate content once users have finished interacting with the system. We planned to use a lightweight-gan model either to enlarge the image and thus predict a possible continuation of the movement, or to generate a new image to have a virtual double.
+The aim of creating these textures would be to use an AI model to generate content once users have finished interacting with the system. We planned to use a lightweight-gan model to compare images and find the one with the most similarities (or maybe either to enlarge the image and thus predict a possible continuation of the movement, or to generate a new image to have a virtual double).
 
 At the moment, the image resolution (64x64 pixels) has been chosen arbitrarily, for the sole reason that it allows you to create a large set of images more quickly. With this resolution, it takes around 1min 14s to capture (64*64/60fps), compared with 4min 55s for a 128x128 pixel image (note that this time can double if you switch to 30 fps capture).
 
