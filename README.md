@@ -13,16 +13,21 @@ Temporal Space is a multimedia dance installation emphasizing curiosity, play, a
 Link : <https://modina.eu/projects/temporal-spaces/> 
 
 ### Artists
+Max Levy
+![MaxLevyHeadshotSMALLSquare](https://github.com/Cosamentale/TemporalSpace_Documentation/assets/83541800/d5f39492-e0dc-4738-bd4a-76dc2620555c)
 
-![MaxLevyHeadshotSMALLSquare](https://github.com/Cosamentale/TemporalSpace_Documentation/assets/83541800/55463d9e-6e94-4d16-a368-08c1f27cacce)
+Max Levy is a Tokyo-born choreographer and multidisciplinary artist based in Frankfurt am Main. He trained at San Francisco Ballet and performed in America before moving to Europe in 2011. As a soloist at Ballett Staatstheater Nürnberg, he danced notable roles by renowned choreographers, and earned recognition and awards at international competitions. Since 2017, Max works as a freelance choreographer, known for his intersection of meditative processes and charged atmospheres, utilizing performance communication to engage performers and spectators consciously and passively. His recent series “Sleepdancing” explores themes of sleep and attention, engaging audiences to redefine their presence during performances. Levy emphasizes collaboration, empowering artists and performers to contribute significantly to the creative process, ultimately to make work which makes all participants recognize their agency. Levy continues to create choreography while exploring music and visual arts as integral extensions of this work.
 
-Max Levy     / <https://www.max-levy.com/choreography>
-             / <https://www.instagram.com/maxmlevy/>
-             
-![Img_CeliaBetourne_800px-768x768](https://github.com/Cosamentale/TemporalSpace_Documentation/assets/83541800/31cecc18-1ab9-455e-9c94-25315a75ca7c)
-       
-Cosa Mentale / <https://www.cosamentale.fr>
-             / <https://www.instagram.com/cosamentale_bx/>
+Link / <https://www.max-levy.com/choreography> 
+/ <https://www.instagram.com/maxmlevy/>
+
+Celia Bétourné
+![CeliaBetourneHeadshotSMALLSquare](https://github.com/Cosamentale/TemporalSpace_Documentation/assets/83541800/4e6260cd-2e75-47c5-9886-9a83704d56c2)
+
+Célia Bétourné is an artist and designer whose work explores the intersection of new media, visual art, and technology. With a Master’s degree in Video Game Direction and experience in virtual reality environment creation, artistic direction, and visual prototyping, Célia has a diverse range of skills in real-time content creation & experience design. She is also a co-founder of Cosa Mentale collectives, where she develops projects in immersive experience, interactive installation, generative art and audiovisual performance. In addition to her artistic work, Célia shares her knowledge and skills through freelance missions and training workshops, teaching 3D modeling, prototyping, and virtual and augmented reality creation. With an artistic approach to new technologies, Célia continues to explore the possibilities of digital art and interactive design.
+
+Link / <https://www.cosamentale.fr>
+ / <https://www.instagram.com/cosamentale_bx/>
 
 ### Open-Source Sharing and Documentation:
 In the spirit of MODINA’s open-sourcing of technology, and the general importance of sharing knowledge. By providing hands-on demonstrations and sharing code repositories, we want to encourage both dancers and technologists to adapt the concepts we are exploring. Additionally, we will document the process of the project, as well as the archiving of Visualization results, ensuring that the knowledge and insights gained from this project are shared with a wider community.
