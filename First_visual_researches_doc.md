@@ -5,4 +5,3 @@
 - Blurred and gosthly atsmophere
                         
 | Check the first board bellow |
-V                              V
