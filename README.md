@@ -1,13 +1,7 @@
 # Temporal space documentation
 Documentation of MODINA's program residency
 
-This repo hosts the documentation for the Temporal Space project produced as part of the ***[Modina]([https://eff.org](https://modina.eu/about/])*** residency programme. This project is hosted by the ***[STL]([https://www.stl.ee/])*** in partnership with the University of Tallinn.
-
-**[EFF](https://eff.org)**.
-
-[hobbit-hole][1]
-
-[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle
+This repo hosts the documentation for the Temporal Space project produced as part of the ***[Modina](https://eff.org](https://modina.eu/about/)*** residency programme. This project is hosted by the ***[STL](https://www.stl.ee/)*** in partnership with the University of Tallinn.
 
 <https://modina.eu/projects/temporal-spaces/> 
 
