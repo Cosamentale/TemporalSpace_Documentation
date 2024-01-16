@@ -23,7 +23,7 @@ We thus obtain this type of images, where the red and green pixel colors are equ
 This system is designed to capture real-time information on the movement of people in the interactive space, for use later in the experience.
 However, to make it easier to test and generate content in advance, a version capturing the same data in relation to a video has been implemented. 
 
-below is an example video of the system:
+below is an example video of the system (mocap with PosNet):
 
 https://github.com/Cosamentale/TemporalSpace_Documentation/assets/43936968/00593fda-fde7-4d97-b9a9-c7c8fc1c6246
 
