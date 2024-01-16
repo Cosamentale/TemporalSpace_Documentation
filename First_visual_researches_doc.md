@@ -12,10 +12,13 @@
 
 This first research prototype produced with ***[VVVV gamma](https://visualprogramming.net/)*** incorporates the basic system of recording in the first instance and replay in the second.
 
+Recording takes the form of a sequence of images that is then played back by an interactive player.
+
 https://github.com/Cosamentale/TemporalSpace_Documentation/assets/83541800/515d5a11-5972-4aba-9622-aabf09c9f2c4
 
-Here is the GitHub link to the prototype: <https://github.com/Cosamentale/Sound_TemporalSpace>
-Recording takes the form of a sequence of images that is then played back by an interactive player.
+Here is the GitHub link to the prototype:
+
+<https://github.com/Cosamentale/Sound_TemporalSpace>
 
 The replay system enables different compositions to be obtained by varying parameters such as the speed at which the recorded sequence is played back or its arrangement in space.
 
