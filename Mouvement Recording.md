@@ -21,17 +21,24 @@ Data is recorded along the x coordinates of the image, and once a line is comple
 Below you can see a vizualization in red of the order in which the pixels are currently read in the app.
 ![readingPattern](https://github.com/Cosamentale/TemporalSpace_Documentation/assets/43936968/9a4c3631-8357-4487-86c9-67dd8cab6a9a)
 
-Here is the code wich is use to write the texture :
+Below is an example of a script for reading data over time :
+``` HLSL
+// _resx, _resy are respectivly the resolution on x and y of the resulte image
+// actually the _time float is not equal to the application time but to the frameCount wich is clamped at 60 fps
+
+float2 u2 = float2(frac(_time  / _resx), frac((_time )/(_resx* _resyx)));
+float3 result = tex2D(_PosTex, u2).xyz;
+```
+
+And here there is the code wich is use to write the texture :
 ``` HLSL
 #pragma kernel CSMain
 Texture2D<float4> reader; 
 RWTexture2D<float4> writer;
 SamplerState _pointClamp;
-// resolution on x of the resulte image
+// _resx, _res, _time are the same that before
 float _resx;
-// resolution on y of the resulte image
 float _resy;
-// actually the _time float is not equal to the application time but to the frameCount wich is clamped at 60 fps
 float _time;
 // _pos contain the information of the x,y position of the head and on z the score of the detection (w is equal at 0)
 float4 _pos;
@@ -56,3 +63,4 @@ void CSMain (uint2 id : SV_DispatchThreadID)
 }
 
 ```
+
