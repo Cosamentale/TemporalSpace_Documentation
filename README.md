@@ -13,9 +13,14 @@ Temporal Space is a multimedia dance installation emphasizing curiosity, play, a
 Link : <https://modina.eu/projects/temporal-spaces/> 
 
 ### Artists
+
+![MaxLevyHeadshotSMALLSquare](https://github.com/Cosamentale/TemporalSpace_Documentation/assets/83541800/55463d9e-6e94-4d16-a368-08c1f27cacce)
+
 Max Levy     / <https://www.max-levy.com/choreography>
              / <https://www.instagram.com/maxmlevy/>
              
+![Img_CeliaBetourne_800px-768x768](https://github.com/Cosamentale/TemporalSpace_Documentation/assets/83541800/31cecc18-1ab9-455e-9c94-25315a75ca7c)
+       
 Cosa Mentale / <https://www.cosamentale.fr>
              / <https://www.instagram.com/cosamentale_bx/>
 
