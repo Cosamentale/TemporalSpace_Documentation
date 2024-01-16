@@ -3,13 +3,6 @@
 With our first prototype, we wanted to record users' positions in png images.
 The aim of creating these textures would be to use an AI model to generate content once users have finished interacting with the system. We planned to use a lightweight-gan model to compare images and find the one with the most similarities (or maybe either to enlarge the image and thus predict a possible continuation of the movement, or to generate a new image to have a virtual double).
 
-At the moment, the image resolution (64x64 pixels) has been chosen arbitrarily, for the sole reason that it allows you to create a large set of images more quickly. With this resolution, it takes around 1min 14s to capture (64*64/60fps), compared with 4min 55s for a 128x128 pixel image (note that this time can double if you switch to 30 fps capture).
-
-Finally, one of the main questions that remains to be resolved before capturing a large set of images is which positions we want to use to train this model, as only the head seems too few, but conversely all the data ("nose", "leftShoulder", "rightShoulder", "leftElbow", "rightElbow", "leftWrist", "rightWrist", "leftHip", "rightHip", "leftKnee", "rightKnee", "leftAnkle", "rightAnkle") can make each image represent a much shorter time or be much larger.
-
-With the aim of not getting stuck later, we're going to make a new 128 or 256 pixel image grouping all 13 members.
-(seems more practical than separating all members into their own texture)
-
 # Mouvement Recording 
 
 For this first prototype, it was arbitrarily chosen to capture the position of a person's face captured by the camera and to retranscribe this data onto a 64x64 pixel png image.
@@ -75,5 +68,16 @@ void CSMain (uint2 id : SV_DispatchThreadID)
 
 ```
 
-At the moment, given that the values are recorded raw without any smoothing, it's probably pointless to record at 60 fps, as webcams have a lower fps.
+# current problematics
 
+- At the moment, given that the values are recorded raw without any smoothing, it's probably pointless to record at 60 fps, as webcams have a lower fps.
+  
+- The image resolution (64x64 pixels) has been chosen arbitrarily, for the sole reason that it allows you to create a large set of images more quickly. With this resolution, it takes around 1min 14s to capture (64*64/60fps), compared with 4min 55s for a 128x128 pixel image (note that this time can double if you switch to 30 fps capture).
+  Finally, one of the main questions that remains to be resolved before capturing a large set of images is which positions we want to use to train this model, as only the head seems too few, but conversely all the data ("nose", "leftShoulder", "rightShoulder", "leftElbow", "rightElbow", "leftWrist", "rightWrist", "leftHip", "rightHip", "leftKnee", "rightKnee", "leftAnkle", "rightAnkle") can make each image represent a much shorter time or be much larger.
+
+- urrently, each member's position is relative to screenspace. This should probably be relative to the position of the center of the body, so that the position in space is not too important in relation to the type of movement (same for sacle).
+
+
+
+With the aim of not getting stuck later, we're going to make a new 128 or 256 pixel image grouping all 13 members with relative positions
+(seems more practical than separating all members into their own texture)
