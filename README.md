@@ -14,6 +14,7 @@ Link : <https://modina.eu/projects/temporal-spaces/>
 
 ### Artists
 Max Levy
+
 ![MaxLevyHeadshotSMALLSquare](https://github.com/Cosamentale/TemporalSpace_Documentation/assets/83541800/d5f39492-e0dc-4738-bd4a-76dc2620555c)
 
 Max Levy is a Tokyo-born choreographer and multidisciplinary artist based in Frankfurt am Main. He trained at San Francisco Ballet and performed in America before moving to Europe in 2011. As a soloist at Ballett Staatstheater Nürnberg, he danced notable roles by renowned choreographers, and earned recognition and awards at international competitions. Since 2017, Max works as a freelance choreographer, known for his intersection of meditative processes and charged atmospheres, utilizing performance communication to engage performers and spectators consciously and passively. His recent series “Sleepdancing” explores themes of sleep and attention, engaging audiences to redefine their presence during performances. Levy emphasizes collaboration, empowering artists and performers to contribute significantly to the creative process, ultimately to make work which makes all participants recognize their agency. Levy continues to create choreography while exploring music and visual arts as integral extensions of this work.
@@ -22,6 +23,7 @@ Link / <https://www.max-levy.com/choreography>
 / <https://www.instagram.com/maxmlevy/>
 
 Celia Bétourné
+
 ![CeliaBetourneHeadshotSMALLSquare](https://github.com/Cosamentale/TemporalSpace_Documentation/assets/83541800/4e6260cd-2e75-47c5-9886-9a83704d56c2)
 
 Célia Bétourné is an artist and designer whose work explores the intersection of new media, visual art, and technology. With a Master’s degree in Video Game Direction and experience in virtual reality environment creation, artistic direction, and visual prototyping, Célia has a diverse range of skills in real-time content creation & experience design. She is also a co-founder of Cosa Mentale collectives, where she develops projects in immersive experience, interactive installation, generative art and audiovisual performance. In addition to her artistic work, Célia shares her knowledge and skills through freelance missions and training workshops, teaching 3D modeling, prototyping, and virtual and augmented reality creation. With an artistic approach to new technologies, Célia continues to explore the possibilities of digital art and interactive design.
