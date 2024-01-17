@@ -3,7 +3,7 @@
 With our first prototype, we wanted to record users' positions in png images.
 The aim of creating these textures would be to use an AI model to generate content once users have finished interacting with the system. We planned to use a lightweight-gan model to compare images and find the one with the most similarities (or maybe either to enlarge the image and thus predict a possible continuation of the movement, or to generate a new image to have a virtual double).
 
-# Mouvement Recording 
+# Mouvement Recording Technique #1
 
 For this first prototype, it was arbitrarily chosen to capture the position of a person's face captured by the camera and to retranscribe this data onto a 64x64 pixel png image.
 
@@ -68,16 +68,34 @@ void CSMain (uint2 id : SV_DispatchThreadID)
 
 ```
 
-# current problematics
+# current problematics with this method
 
 - At the moment, given that the values are recorded raw without any smoothing, it's probably pointless to record at 60 fps, as webcams have a lower fps.
   
 - The image resolution (64x64 pixels) has been chosen arbitrarily, for the sole reason that it allows you to create a large set of images more quickly. With this resolution, it takes around 1min 14s to capture (64*64/60fps), compared with 4min 55s for a 128x128 pixel image (note that this time can double if you switch to 30 fps capture).
   Finally, one of the main questions that remains to be resolved before capturing a large set of images is which positions we want to use to train this model, as only the head seems too few, but conversely all the data ("nose", "leftShoulder", "rightShoulder", "leftElbow", "rightElbow", "leftWrist", "rightWrist", "leftHip", "rightHip", "leftKnee", "rightKnee", "leftAnkle", "rightAnkle") can make each image represent a much shorter time or be much larger.
 
-- urrently, each member's position is relative to screenspace. This should probably be relative to the position of the center of the body, so that the position in space is not too important in relation to the type of movement (same for sacle).
-
-
+- urrently, each member's position is relative to screenspace. This should probably be relative to the position of the center of the body, so that the position in space is not too 
+mportant in relation to the type of movement (same for sacle).
 
 With the aim of not getting stuck later, we're going to make a new 128 or 256 pixel image grouping all 13 members with relative positions
 (seems more practical than separating all members into their own texture)
+
+# Mouvement Recording Technique #2
+
+This time, all the members are captured on the same texture of 256x256 pixels in a layout like this.
+
+![capture1](https://github.com/Cosamentale/TemporalSpace_Documentation/assets/43936968/06b91177-a97a-46a0-a04c-e111d5ad953d)
+![capture3](https://github.com/Cosamentale/TemporalSpace_Documentation/assets/43936968/deb82b0e-8851-4677-83ec-e4a786578b50)
+![capture2](https://github.com/Cosamentale/TemporalSpace_Documentation/assets/43936968/608c032e-f87b-440b-b5ad-00d4c423b4f2)
+
+with pixels read in this way (each color is a different member).
+
+![readingPattern02](https://github.com/Cosamentale/TemporalSpace_Documentation/assets/43936968/6bd6b2d4-0a24-4059-b762-0a7a2b451738)
+
+And positions are now all correlated to the pelvis, to avoid the frame position taking on too much importance in relation to the movement. 
+
+https://github.com/Cosamentale/TemporalSpace_Documentation/assets/43936968/2a6e1d7c-8155-41d4-b6ae-b7aaaf34634a
+
+Each frame represents around 1min20 of movement (still at 60 fps for now). 
+
