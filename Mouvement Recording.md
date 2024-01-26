@@ -95,9 +95,9 @@ with pixels read in this way (each color is a different member).
 
 And positions are now all correlated to the pelvis, to avoid the frame position taking on too much importance in relation to the movement. 
 
-https://github.com/Cosamentale/TemporalSpace_Documentation/assets/43936968/2a6e1d7c-8155-41d4-b6ae-b7aaaf34634a
-
 Each white point is captured in real time, and the red lines are read in relation to the texture.
 
 Each frame represents around 1min20 of movement (still at 60 fps for now). 
+
+on this link you can view the different results.    https://louiscortes.github.io/Modina-model-viz/
 
