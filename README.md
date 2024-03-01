@@ -32,9 +32,11 @@ Link / <https://www.cosamentale.fr>
  / <https://www.instagram.com/cosamentale_bx/>
 
 ## Open-Source Sharing and Documentation:
+
 In the spirit of MODINA’s open-sourcing of technology, and the general importance of sharing knowledge. By providing hands-on demonstrations and sharing code repositories, we want to encourage both dancers and technologists to adapt the concepts we are exploring. Additionally, we will document the process of the project, as well as the archiving of Visualization results, ensuring that the knowledge and insights gained from this project are shared with a wider community.
 
 ## Calendar
+
 The 8-week MODINA residency for the development of this project will take place at STL, Tallinn, between 8/1/2024 and 3/3/2024. It will culminate with an artist talk and a public showing (dates to be defined).
 July 31, 2023
 
